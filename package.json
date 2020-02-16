@@ -8,6 +8,7 @@
   "scripts": {
     "live-pro": "live-server public",
     "build": "webpack",
+    "build-pro": "webpack -p",
     "serve-dev": "webpack-dev-server",
     "build-babel": "babel src/app.js --out-file=public/scripts/bundle.js --presets=env,react --watch"
   },
