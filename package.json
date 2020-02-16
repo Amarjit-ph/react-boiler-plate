@@ -6,9 +6,9 @@
   "author": "Amarjit_pheiroijam",
   "license": "MIT",
   "scripts": {
-    "live": "live-server public",
+    "live-pro": "live-server public",
     "build": "webpack",
-    "dev-server": "webpack-dev-server",
+    "serve-dev": "webpack-dev-server",
     "build-babel": "babel src/app.js --out-file=public/scripts/bundle.js --presets=env,react --watch"
   },
   "dependencies": {
