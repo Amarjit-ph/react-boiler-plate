@@ -24,4 +24,7 @@ const template = (
     </div>
 );
 
+
+console.log(process.env.APIKEY1);
+console.log(process.env.APIKEY2);
 ReactDOM.render(template, document.getElementById('app'));
