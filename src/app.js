@@ -24,5 +24,4 @@ const template = (
     </div>
 );
 
-console.log('SOURCE_MAP_TEST');
 ReactDOM.render(template, document.getElementById('app'));
